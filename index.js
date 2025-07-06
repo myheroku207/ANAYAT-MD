@@ -67,7 +67,7 @@ const {
   }
   });
   console.log('Plugins installed successful ✅')
-  console.log('your name connected to whatsapp ✅')
+  console.log('ANAYAT-MD connected to whatsapp ✅')
   
   let up =`╔═════════════════╗
   ║      your name           
@@ -76,7 +76,7 @@ const {
   ║      • PREFIX: .            
   ╟─────────────────╢
   ║ ♻ 𝐖𝐇𝐀𝐓𝐒𝐀𝐏𝐏 𝐂𝐇𝐀𝐍𝐍𝐄𝐋 𝐋𝐈𝐍𝐊         
-  ║ https://whatsapp.com/channel/0029VarfjW04tRrmwfb8x306              
+  ║ https://whatsapp.com/channel/0029VbAm8LqL2ATpxklIct2g              
   ╟─────────────────╢
   ║ ♻ 𝐖𝐇𝐀𝐓𝐒𝐀𝐏𝐏 𝐋𝐈𝐍𝐊          
   ║ https://wa.me/message/VRZ5QLDAHXKSF1                 
