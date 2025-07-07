@@ -3,7 +3,7 @@ function convertToBool(text, fault = 'true') {
     return text === fault ? true : false;
 }
 module.exports = {
-SESSION_ID: process.env.SESSION_ID || "ARSL~suVi2TxQ#UkaTT6mXG1ZG5eR0oHdoEcFing3gfq5n0jyYEeRQOVs",  // ADD YOUR SESSION ID 
+SESSION_ID: process.env.SESSION_ID || "ARSL~hitzBJxC#lMPgYRqbjlLz6l0qTnvovYi4QQCcp2zUSYEdwwdyJP4",  // ADD YOUR SESSION ID 
 ALIVE_IMG: process.env.ALIVE_IMG || "https://files.catbox.moe/atby2t.png",
 ALIVE_MSG: process.env.ALIVE_MSG || "HEY DEAR, I'm thrilled to announce that ANAYAT-MD is ALIVE now—ready to dive into new adventures with you!",
 SUDO_NB: process.env.SUDO_NB || "923452401207",
