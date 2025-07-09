@@ -49,7 +49,7 @@ async (conn, mek, m, { reply, sender, args, q }) => {
 │ 📄 *Description:* ${data.description || "No Description"}
 │ 🎞️ *HD Video:* UPLOADING...
 ╰──────────────⊷
-*© Arslan-Ultra-MD*`;
+*© ANAYAT-MD*`;
     
     // Send the HD video as a video message.
     await conn.sendMessage(m.chat, {
