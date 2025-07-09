@@ -77,7 +77,7 @@ cmd({
 ┃  ✞ *𝓞𝔀𝓷𝓮𝓻:* ${config.OWNER_NAME || "Unknown"}
 ╰━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━╯
 
-       𓆩 Arslan-Ultra-MD 𓆪`;
+       𓆩 ANAYAT-MD 𓆪`;
 
         // Send image with system info as caption
         return await conn.sendMessage(from, { 
