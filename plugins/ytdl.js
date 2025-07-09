@@ -36,7 +36,7 @@ let desc= `
 
 ◈◈◈◈◈◈◈◈◈◈◈◈◈◈◈◈◈◈
 
-✨  𝓟𝓸𝔀𝓮𝓻𝓮𝓭 𝓫𝔂 𝓐𝓻𝓼𝓵𝓪𝓷𝓜𝓓 𝓞𝓯𝓯𝓲𝓬𝓲𝓪𝓵  ✨
+✨  Powered by ANAYAT-MD official  ✨
 `
 
 await conn.sendMessage(from,{image :{ url: deta.thumbnail},caption:desc},{quoted:mek});
@@ -92,7 +92,7 @@ let desc= `
 
 ◈◈◈◈◈◈◈◈◈◈◈◈◈◈◈◈
 
-✨  𝓟𝓸𝔀𝓮𝓻𝓮𝓭 𝓫𝔂 𝓐𝓻𝓼𝓵𝓪𝓷𝓜𝓓 𝓞𝓯𝓯𝓲𝓬𝓲𝓪𝓵  ✨
+✨  Powered by ANAYAT-MD official  ✨
 `
 
 await conn.sendMessage(from,{image :{ url: deta.thumbnail},caption:desc},{quoted:mek});
@@ -106,7 +106,7 @@ let downloadUrl = data.result.downloadUrl;
 
 // Send video message
 await conn.sendMessage(from,{video:{url:downloadUrl},mimetype:"video/mp4",caption :"🎥 𝗩𝗶𝗱𝗲𝗼 𝗯𝘆 𝒜𝓇𝓈𝓁𝒶𝓃-𝒰𝓁𝓉𝓇𝒶-𝑀𝒟 🌟"},{quoted:mek})
-await conn.sendMessage(from,{document:{url:downloadUrl},mimetype:"video/mp4",fileName:deta.title + ".mp4",caption :"📥 𝗗𝗼𝘄𝗻𝗹𝗼𝗮𝗱𝗲𝗱 𝘄𝗶𝘁𝗵 𝒜𝓇𝓈𝓁𝒶𝓃-𝒰𝓁𝓉𝓇𝒶-𝑀𝒟 💫"},{quoted:mek})
+await conn.sendMessage(from,{document:{url:downloadUrl},mimetype:"video/mp4",fileName:deta.title + ".mp4",caption :"📥 𝗗𝗼𝘄𝗻𝗹𝗼𝗮𝗱𝗲𝗱 𝘄𝗶𝘁𝗵 ANAYAT-MD 💫"},{quoted:mek})
 
 }catch(e){
 console.log(e)
