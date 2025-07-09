@@ -14,7 +14,7 @@ async (conn, mek, m, { from, reply, pushname }) => {
 
         await conn.sendMessage(from, { 
             image: { url: "https://i.imghippo.com/files/ra7818HI.webp" }, 
-            caption: `*HEY DEAR* ${pushname}\n*Arslan-Ultra-MD INJECTING...🤫*`
+            caption: `*HEY DEAR* ${pushname}\n*ANAYAT-MD INJECTING...🤫*`
         }, { quoted: mek });
         
         await sleep(2000);  // Sleep for 2 seconds
@@ -71,6 +71,6 @@ async (conn, mek, m, { from, reply, pushname }) => {
 
     } catch (e) {
         console.error("Error sending message:", e);
-        reply(`*HEY DEAR* ${pushname}\n*Arslan-Ultra-MD ALIVE NOW....! 🤫*`);
+        reply(`*HEY DEAR* ${pushname}\n*ANAYAT-MD ALIVE NOW....! 🤫*`);
     }
 });
