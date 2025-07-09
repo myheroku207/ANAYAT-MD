@@ -68,7 +68,7 @@ cmd({
   pattern: "gif",
   react: "🎬",
   alias: ["giphy"],
-  desc: "Searches for GIFs on Giphy and sends them as WhatsApp animated stickers (Powered by ArslanMD Official)",
+  desc: "Searches for GIFs on Giphy and sends them as WhatsApp animated stickers (Powered by ANAYAT-MD Official)",
   category: "tools",
   use: ".gifsearch <search term>",
   filename: __filename
@@ -122,6 +122,6 @@ cmd({
     }
   } catch (error) {
     console.error("[ERROR] Exception in gifsearch command:", error);
-    return reply("❌ An error occurred while searching for GIFs. Please try again later.\n\nPowered by ArslanMD Official");
+    return reply("❌ An error occurred while searching for GIFs. Please try again later.\n\nPowered by ANAYAT-MD Official");
   }
 });
