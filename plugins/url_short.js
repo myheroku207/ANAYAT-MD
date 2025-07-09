@@ -47,7 +47,7 @@ async (conn, mek, m, {
         // Check if the API response is successful
         if (res && res.success) {
             // Send the shortened URL
-            return reply(`Original URL: ${res.original_url}\nShortened URL: ${res.shortened_url}\n*By Arslan-Ultra-MD 🤫* `);
+            return reply(`Original URL: ${res.original_url}\nShortened URL: ${res.shortened_url}\n*By ANAYAT-MD 🤫* `);
         } else {
             return reply("Failed to shorten the URL. Please try again later.");
         }
