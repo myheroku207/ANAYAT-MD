@@ -23,7 +23,7 @@ cmd({
         let imageUrl = `https://api.davidcyriltech.my.id/diffusion?prompt=${encodeURIComponent(prompt)}`;
 
         // Send the image
-        return conn.sendMessage(m.chat, { image: { url: imageUrl }, caption: `Here is your AI-generated image for: "${prompt}"\n*BY Arslan-Ultra-MD 🤫 *` }, { quoted: mek });
+        return conn.sendMessage(m.chat, { image: { url: imageUrl }, caption: `Here is your AI-generated image for: "${prompt}"\n*BY ANAYAT-MD 🤫 *` }, { quoted: mek });
 
     } catch (e) {
         console.error(e);
