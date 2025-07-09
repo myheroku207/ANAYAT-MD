@@ -44,7 +44,7 @@ async (conn, mek, m, { from, quoted, body, isCmd, command, args, q, isGroup, sen
 ⏰ *Created At:* ${data.created_at}
 🔄 *Updated At:* ${data.updated_at}
 
-*POWERED BY ArslanMD Official🤫*
+*POWERED BY ANAYAT-MD Official🤫*
         `;
 
         // Define the image URL using the profile picture or fallback image from config
@@ -100,7 +100,7 @@ async (conn, mek, m, { from, quoted, body, isCmd, command, args, q, isGroup, sen
 │ 📸 *Posts:* ${res.posts}
 │ 🔗 *Profile:* https://instagram.com/${res.username.replace(/^@/, '')}
 ╰──────────────⊷
-*© Arslan-Ultra-MD*`;
+*© ANAYAT-MD*`;
 
         // Define the image URL using the profile picture or fallback image from config
         const imageUrl = (data.profilePic && data.profilePic !== 'N/A') ? data.profilePic : config.ALIVE_IMG;
@@ -159,7 +159,7 @@ async (conn, mek, m, { reply, sender, args, q }) => {
 │ 📝 *Description:* ${channel.description || "No Description"}
 │ 🖼️ *Image:* ${channel.img || "N/A"}
 ╰──────────────⊷
-*© Arslan-Ultra-MD*`;
+*© ANAYAT-MD*`;
     
     // Send the channel image with the fancy caption.
     await conn.sendMessage(m.chat, {
