@@ -41,7 +41,7 @@ cmd({
     try {
         const menuText = `
 ╔═════════════════╗
-║ 🚀 𝒜𝓇𝓈𝓁𝒶𝓃-𝒰𝓁𝓉𝓇𝒶-𝑀𝒟 🚀           
+║ 🚀 ANAYAT-MD 🚀           
 ╠══════════════════╣
 ║ 𝓗𝓮𝓵𝓵𝓸, 𝓭𝓮𝓪𝓻 *${pushname}* 🎩
 ║ 📅 𝓓𝓪𝓽𝓮: *${currentDate}*
@@ -161,12 +161,12 @@ cmd({
 ╔══════════════════════════╗
 ║ 🚀 *𝓟𝓸𝔀𝓮𝓻𝓮𝓭 𝓫𝔂 𝓐𝓻𝓼𝓵𝓪𝓷𝓜𝓓 𝓞𝓯𝓯𝓲𝓬𝓲𝓪𝓵* 🚀
 ║ 🔗 *𝓙𝓞𝓘𝓝 𝓞𝓤𝓡 𝓦𝓗𝓐𝓣𝓢𝓐𝓟𝓟 𝓒𝓗𝓐𝓝𝓝𝓔𝓛
-║  https://whatsapp.com/channel/0029VarfjW04tRrmwfb8x306
+║  https://whatsapp.com/channel/0029VbAm8LqL2ATpxklIct2g
 ║ *Type .repo to get bot info and deply*
 ╚══════════════════════════╝`;
 
         await conn.sendMessage(from, { 
-            image: { url: `https://files.catbox.moe/atby2t.png` }, 
+            image: { url: `https://files.catbox.moe/whkzda.jpg` }, 
             caption: menuText 
         }, { quoted: mek });
 
