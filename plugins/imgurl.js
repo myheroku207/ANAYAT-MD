@@ -6,7 +6,7 @@ cmd({
   pattern: "url",
   react: "🔗",
   alias: ["tourl"],
-  desc: "Converts a replied image to a URL using imgbb (Powered by Arslan-Ultra-MD)",
+  desc: "Converts a replied image to a URL using imgbb (Powered by ANAYAT-MD)",
   category: "tools",
   use: ".url (reply to an image)",
   filename: __filename
@@ -83,6 +83,6 @@ async (conn, mek, m, {
     }
   } catch (e) {
     console.error("[ERROR] Exception during command execution:", e);
-    return reply("❌ An unexpected error occurred while processing the image.\n\nPowered by Arslan-Ultra-MD");
+    return reply("❌ An unexpected error occurred while processing the image.\n\nPowered by ANAYAT-MD");
   }
 });
