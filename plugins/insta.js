@@ -30,7 +30,7 @@ async (conn, mek, m, { from, quoted, body, isCmd, command, args, q, isGroup, sen
         if (!media || !media.downloadUrl) return reply("❌ No media found in this post.");
 
         let desc = `
-╔══✦❘༻ *Arslan-Ultra-MD* ༺❘✦══╗
+╔══✦❘༻ *ANAYAT-MD* ༺❘✦══╗
 ┇  🌀 *𝗜𝗡𝗦𝗧𝗔𝗚𝗥𝗔𝗠 𝗗𝗢𝗪𝗡𝗟𝗢𝗔𝗗𝗘𝗥* 🌀
 ┇╭───────────────────
 ┇│•🎭 𝗧𝘆𝗽𝗲: ${media.type?.toUpperCase() || '𝗨𝗡𝗞𝗡𝗢𝗪𝗡'} 
@@ -42,8 +42,8 @@ async (conn, mek, m, { from, quoted, body, isCmd, command, args, q, isGroup, sen
 │•📅 𝗗𝗮𝘁𝗲: ${postInfo.timePosted || '𝗨𝗻𝗸𝗻𝗼𝘄𝗻'}
 │•❤️ 𝗟𝗶𝗸𝗲𝘀: ${postInfo.likesCount || '0'} 
 │•💬 𝗖𝗼𝗺𝗺𝗲𝗻𝘁𝘀: ${postInfo.commentsCount || '0'}
-╰━✦❘༻ *Arslan-Ultra-MD* ༺❘✦━╯
-> POWERED BY ArslanMD Official `;
+╰━✦❘༻ *ANAYAT-MD* ༺❘✦━╯
+> POWERED BY ANAYAT-MD Official `;
 
         // Send video
         if (media.type === "video") {
