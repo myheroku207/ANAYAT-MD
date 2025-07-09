@@ -53,7 +53,7 @@ async (conn, mek, m, {
             for (let img of images) {
                 await conn.sendMessage(from, { 
                     image: { url: img }, 
-                    caption: "*BY Arslan-Ultra-MD🤫*" 
+                    caption: "*BY ANAYAT-MD🤫*" 
                 }, { quoted: mek });
             }
         } else {
