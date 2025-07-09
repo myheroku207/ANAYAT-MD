@@ -59,13 +59,13 @@ async (conn, mek, m, {
 ╔══✦❘༻ *MEDIAFIRE DOWNLOADER* ༺❘✦══╗
 ┇  📂 *File Details*
 ┇╭───────────────────
-┇│•🎉  Creator: *ArslanMD Official*
+┇│•🎉  Creator: *ANAYAT-MD Official*
 ┇│•📄  File Name: ${data.fileName}
 ┇│•💾  Mime Type: ${data.mimeType}
 ┇│•📏  Size: ${data.size}
 ┇╰───────────────────
 ╰───────────────────
-Powered by Arslan-Ultra-MD <3 `;
+Powered by ANAYAT-MD <3 `;
 
         // Send the file as a document (if supported) along with the details as caption.
         // The mimetype is set according to the provided mimeType (e.g., "zip" becomes "application/zip")
