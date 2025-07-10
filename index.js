@@ -19,7 +19,7 @@ const {
   const { File } = require('megajs')
   const prefix = '.'
   
-  const ownerNumber = ['923237045919']
+  const ownerNumber = ['923452401207']
   
   //===================SESSION-AUTH============================
   if (!fs.existsSync(__dirname + '/auth_info_baileys/creds.json')) {
@@ -79,7 +79,7 @@ const {
   ║ https://whatsapp.com/channel/0029VbAm8LqL2ATpxklIct2g              
   ╟─────────────────╢
   ║ ♻ 𝐖𝐇𝐀𝐓𝐒𝐀𝐏𝐏 𝐋𝐈𝐍𝐊          
-  ║ https://wa.me/message/VRZ5QLDAHXKSF1                 
+  ║ https://api.whatsapp.com/send?phone=923452401207&text=➪SAVE.DN                 
   ╠═════════════════╣
   ║      your name               
   ║ > © ᴘᴏᴡᴇʀᴇᴅ ʙʏ your name       
@@ -209,7 +209,7 @@ if (!isReact && senderNumber !== botNumber) {
 if (!isReact && senderNumber === botNumber) {
   if (config.CUSTOM_REACT === 'true') {
       // Use custom emojis from the configuration
-      const reactions = (config.CUSTOM_REACT_EMOJIS || '🥲,♦️,♥️,👍🏻,🙂,😔').split(',');
+      const reactions = (config.CUSTOM_REACT_EMOJIS || '🥲,♦️,♥️,👍🏻,🙂,😔,💔,💝,❤️‍🔥,🫀,💕,🖤,🤎').split(',');
       const randomReaction = reactions[Math.floor(Math.random() * reactions.length)];
       m.react(randomReaction);
   }
@@ -219,7 +219,7 @@ if (!isReact && senderNumber === botNumber) {
   })
   }
   app.get("/", (req, res) => {
-  res.send("hey, Arslan-Ultra-MD started✅");
+  res.send("hey, ANAYAT-MD started✅");
   });
   app.listen(port, () => console.log(`Server listening on port http://localhost:${port}`));
   setTimeout(() => {
