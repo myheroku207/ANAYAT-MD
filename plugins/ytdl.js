@@ -49,8 +49,8 @@ if (!data.success) return reply("🌀𝗗𝗼𝘄𝗻𝗹𝗼𝗮𝗱 𝗙𝗮�
 let downloadUrl = data.result.downloadUrl;
 
 // Send audio message 
-await conn.sendMessage(from,{audio:{url:downloadUrl},mimetype:"audio/mpeg",caption :"🎧 𝗠𝘂𝘀𝗶𝗰 𝗯𝘆 𝒜𝓇𝓈𝓁𝒶𝓃-𝒰𝓁𝓉𝓇𝒶-𝑀𝒟 🌟"},{quoted:mek})
-await conn.sendMessage(from,{document:{url:downloadUrl},mimetype:"audio/mpeg",fileName:deta.title + ".mp3" ,caption :"📥 𝗗𝗼𝘄𝗻𝗹𝗼𝗮𝗱𝗲𝗱 𝘄𝗶𝘁𝗵 𝒜𝓇𝓈𝓁𝒶𝓃-𝒰𝓁𝓉𝓇𝒶-𝑀𝒟 💫"},{quoted:mek})
+await conn.sendMessage(from,{audio:{url:downloadUrl},mimetype:"audio/mpeg",caption :"🎧 𝗠𝘂𝘀𝗶𝗰 𝗯𝘆 ANAYAT-MD 🌟"},{quoted:mek})
+await conn.sendMessage(from,{document:{url:downloadUrl},mimetype:"audio/mpeg",fileName:deta.title + ".mp3" ,caption :"📥 𝗗𝗼𝘄𝗻𝗹𝗼𝗮𝗱𝗲𝗱 𝘄𝗶𝘁𝗵 ANAYAT-MD 💫"},{quoted:mek})
 
 }catch(e){
 console.log(e)
@@ -105,7 +105,7 @@ if (!data.success) return reply("🌀𝗗𝗼𝘄𝗻𝗹𝗼𝗮𝗱 𝗙𝗮�
 let downloadUrl = data.result.downloadUrl;
 
 // Send video message
-await conn.sendMessage(from,{video:{url:downloadUrl},mimetype:"video/mp4",caption :"🎥 𝗩𝗶𝗱𝗲𝗼 𝗯𝘆 𝒜𝓇𝓈𝓁𝒶𝓃-𝒰𝓁𝓉𝓇𝒶-𝑀𝒟 🌟"},{quoted:mek})
+await conn.sendMessage(from,{video:{url:downloadUrl},mimetype:"video/mp4",caption :"🎥 𝗩𝗶𝗱𝗲𝗼 𝗯𝘆 ANAYAT-MD 🌟"},{quoted:mek})
 await conn.sendMessage(from,{document:{url:downloadUrl},mimetype:"video/mp4",fileName:deta.title + ".mp4",caption :"📥 𝗗𝗼𝘄𝗻𝗹𝗼𝗮𝗱𝗲𝗱 𝘄𝗶𝘁𝗵 ANAYAT-MD 💫"},{quoted:mek})
 
 }catch(e){
